@@ -32,3 +32,23 @@ If the number of clusters change over time, how one could compute to which clust
 ### with database
 
 To work around the issues related to absence of a database, we can add a database to the load balancers to record the links between the sessions and the clusters. In particular, there is no need to know the session ID beforehand when creating the session.
+
+Having a database to store the link between sessions and clusters also enable smart decisions about which cluster to choose for new sessions. For instance, the Load Balancer could choose the cluster with the least load. It could even allow the user to choose the cluster themselves using some request metadata.
+
+It would also enable dynamic clusters as no rebalancing of the clusters would be needed.
+
+The downside to the database approach is the loss of the stateless property of the Load Balancer. Because the LB is baked by a database, it will also be limited in scaling by said database.
+
+
+### On-demand clusters
+
+An extension of the Load Balancer could be to provision clusters on-the-fly. When a session is created, the Load Balancer could deploy a fresh cluster that will be destroyed when the session is deleted.
+
+The design of auch a solution is more complex and should be considered later on.
+
+
+## Implementation
+
+The implementation of such a Load Balancer would consist in a gRPC server and client. The server would take ArmoniK requests from the user, and forward them to the right cluster using ArmoniK API. It would forward the response back to the user.
+
+In particular, it is transparent from both ends, client and control plane.
