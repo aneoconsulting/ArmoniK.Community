@@ -11,3 +11,5 @@ sw.*
 .env
 .output
 .eslintcache
+build/
+.venv

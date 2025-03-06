@@ -28,14 +28,14 @@ Each project can have differents commands depending of the architecture. Please 
 
 ## 📚 Documentation
 
-Please refer to [the contribution guide about documentation](./10.documentation.md).
+Please refer to [the contribution guide about documentation](./documentation.md).
 
 ## 🙌 Sending Pull Request
 
 Please refer to related release processes:
 
-- [Discuss First](../2.working-processes/1.discuss-first.md)
-- [Submission Guidelines](../2.working-processes/2.submission-guidelines.md)
+- [Discuss First](../working-processes/discuss-first.md)
+- [Submission Guidelines](../working-processes/submission-guidelines.md)
 
 ## 👩‍🔧 Maintenance
 
@@ -55,6 +55,6 @@ After bumpping, we remove lock file, we install them, runing build and test to v
 
 ### Releasing
 
-Please refer to [release processes](../2.working-processes/3.release-processes.md) in our working processes.
+Please refer to [release processes](../working-processes/release-processes.md) in our working processes.
 
 > This guide is heavily inpired by the contribute from [@antfu](https://github.com/antfu/).
