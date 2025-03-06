@@ -29,7 +29,7 @@ Because the documentation is just Nuxt project, you can refer to the official do
 
 Please refer to related release processes:
 
-- [Discuss First](../2.working-processes/1.discuss-first.md)
-- [Submission Guidelines](../2.working-processes/2.submission-guidelines.md)
+- [Discuss First](../working-processes/discuss-first.md)
+- [Submission Guidelines](../working-processes/submission-guidelines.md)
 
 For more informations, please refer to [the docs documentation](https://aneoconsulting.github.io/armonik-docs-theme/).
