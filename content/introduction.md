@@ -17,9 +17,9 @@ ArmoniK is a large project and because of it's complexity, we decided to splitte
 
 In spite of this autonomy that repositories have, we think it's **essential** for each of them to have the **same way of working**. We have written each process we use to build ArmoniK together.
 
-- [Discuss First](./2.working-processes/1.discuss-first.md)
-- [Submission guidelines](./2.working-processes/2.submission-guidelines.md)
-- [Release processes](./2.working-processes/3.release-processes.md)
+- [Discuss First](./working-processes/discuss-first.md)
+- [Submission guidelines](./working-processes/submission-guidelines.md)
+- [Release processes](./working-processes/release-processes.md)
 
 Feel free to ask if there is something you don't understand. The whole ArmoniK team would be delighted to answer you.
 
@@ -27,7 +27,7 @@ Feel free to ask if there is something you don't understand. The whole ArmoniK t
 
 In addition to processes and **for each language** you could find in ArmoniK, we created a **contribution guide**.
 
-- [TypeScript](./2.contribution-guides/1.typescript.md)
+- [TypeScript](./contribution-guides/typescript.md)
 
 Feel free to ask if there is something you don't understand. The whole ArmoniK team would be delighted to answer you.
 
