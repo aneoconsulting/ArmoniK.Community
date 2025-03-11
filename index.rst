@@ -29,7 +29,7 @@ ArmoniK documentation
    content/working-processes/submission-guidelines.md
    
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 1
    :caption: AEP
    :glob:
 
